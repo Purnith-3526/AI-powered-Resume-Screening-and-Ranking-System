@@ -8,17 +8,8 @@ An AI-powered Resume Screening and Ranking System uses machine learning to analy
 
 # Step:-1 
 Open the vscode and create a folder for your project name the folder as **"resume_ranking_project"**. 
-Organize your project folder as follows:
-resume_ranking_project/
-├── data/ # Store datasets or input files here 
-├── notebooks/ # Store Jupyter notebooks 
-     │ └── resume_ranking.ipynb
-├── src/ # Place Python scripts or modules
-├── environment/ # Store the environment setup files 
-      │ ├── requirements.txt # List of required Python libraries 
-      │ └── environment.yml # Conda environment file (optional) 
-├── output/ # Store outputs, generated files, or results 
-└── README.md # Description of the project and usage
+![image](https://github.com/user-attachments/assets/d15ca606-6398-46c5-bae0-0ed1eeee532c)
+
 
 # step:-2
 After created the above folders open the **vscode**. install the extensions jupyter(Microsoft), python(Microsoft).
