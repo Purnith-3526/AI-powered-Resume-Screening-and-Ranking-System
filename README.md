@@ -31,10 +31,24 @@ To setup the kernal:
 1) Activate Your Environment Navigate to your project folder and activate your virtual environment:
 
 On Windows: .\env\Scripts\activate
+
 On mac/linux: source env/bin/activate
 
 2) Install ipykernel Once your environment is activated, install ipykernel:- bash:- pip install ipykernel
 3) Add Your Environment to Jupyter Register the environment as a Jupyter kernel: Bash:- python -m ipykernel install --user --name=env --display-name "Python (resume_env)"
 4) Retry in Jupyter Notebook Restart your Jupyter Notebook and select the newly added kernel "Python (resume_env)" from the kernel selection menu.
 
+After setup the  environment run the import and from code it will be exicute.
 
+# step:- 4
+Run the all the codes in jupyter notebook after completion of the exicution it will shows one python file path click on it and save the python file as **"resume_ranking.py**.
+
+after run the python file in Terminal go to the **resume_ranking.py** saved folder 
+
+Ex:- if your file is saved in site-apps then you should navigate to the site-apps by using cd in terminal
+
+Then run the command: streamlit run file_name.py
+
+After running, Streamlit will provide a URL (usually http://localhost:8501/) that you can open in your web browser to see your app in action.
+
+# Thank You
